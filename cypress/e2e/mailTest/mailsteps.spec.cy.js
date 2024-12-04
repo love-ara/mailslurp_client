@@ -36,7 +36,7 @@ describe('testing email token extraction', () => {
     })
   })
   it('fill in the password', ()=>{
-    cy.get(data.passwordField).should('exist').type('Ara26!');
+    cy.get(data.passwordField).should('exist').type('Aramide26!');
   })
   it('accept terms and condition', ()=>{
     cy.get(data.signupTACField).should('not.be.checked').check().should('be.checked');
