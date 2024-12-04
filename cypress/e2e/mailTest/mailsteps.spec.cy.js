@@ -19,5 +19,17 @@ describe('testing email token extraction', () => {
   it('fill in the first name', ()=>{
     cy.get(data.firstnameField).should('exist').type('Aramide');
   })
+  it('fill in the last name', ()=>{
+    cy.get(data.lastnameField).should('exist').type('Otenaike');
+  })
+  it('fill in the email', ()=>{
+    cy.get(data.emailField).should('exist').type('aramideotenaik@gmail.com');
+  })
+  it('fill in the password', ()=>{
+    cy.get(data.passwordField).should('exist').type('Ara26!');
+  })
+  it('accept terms and condition', ()=>{
+    cy.get(data.signupTACField).should('not.be.checked').check().should('be.checked');
+  })
   
 })
