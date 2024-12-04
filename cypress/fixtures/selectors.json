@@ -9,5 +9,6 @@
   "passwordField": "#password",
   "signupTACField": "#signupTAC",
   "signupButton": "[class='MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedEnumBlue MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorEnumBlue MuiButton-disableElevation MuiButton-fullWidth MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedEnumBlue MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorEnumBlue MuiButton-disableElevation MuiButton-fullWidth css-3w3j8f']",
-  "otpField": "input"
+  "otpField": "input",
+  "dropdown": "something"
 }

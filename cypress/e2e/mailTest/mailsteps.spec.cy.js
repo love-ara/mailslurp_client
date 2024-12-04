@@ -1,4 +1,8 @@
 let data
+let inboxId
+let emailAddress
+let emailBody
+let otpCode
 
 describe('testing email token extraction', () => {
   before(()=>{
@@ -23,7 +27,13 @@ describe('testing email token extraction', () => {
     cy.get(data.lastnameField).should('exist').type('Otenaike');
   })
   it('fill in the email', ()=>{
-    cy.get(data.emailField).should('exist').type('aramideotenaik@gmail.com');
+    cy.createInbox().then((inbox)=>{
+      inboxId = inbox.id
+      emailAddress = inbox.emailAddress
+
+      cy.get(data.emailField).should('exist').type(emailAddress);
+
+    })
   })
   it('fill in the password', ()=>{
     cy.get(data.passwordField).should('exist').type('Ara26!');
@@ -31,5 +41,18 @@ describe('testing email token extraction', () => {
   it('accept terms and condition', ()=>{
     cy.get(data.signupTACField).should('not.be.checked').check().should('be.checked');
   })
+
+  //  it('for dropdowns with no select tag', ()=>{
+  //   cy.get(data.dropdown).should('exist').click();
+  // cy.contain(data.dropdown).should('exist')
+  // cy.get('[class="dropdown"]:nth-child(2)).should('exist').click()
+  // })
+
+
+  it('click to complete signup', ()=>{
+    cy.get(data.signupButton).eq(0).should('exist').click();
+  })
+
+  
   
 })
