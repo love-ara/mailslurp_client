@@ -1,0 +1,13 @@
+{
+  "signupForFreeButton": "[class='tw-justify-center tw-px-3.5 tw-py-2 tw-text-blue-700 tw-bg-white tw-rounded tw-border tw-border-blue-700 tw-border-solid tw-shadow-sm tw-text-blue-700 tw-text-16 hover:tw-text-white hover:tw-border-white hover:tw-bg-transparent']",
+  "signupAsATalentButton":"[class='MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary MuiButton-disableElevation MuiButton-fullWidth MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary MuiButton-disableElevation MuiButton-fullWidth css-ymie91']",
+  "signupAsAnOrganisationButton":"[class='MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary MuiButton-disableElevation MuiButton-fullWidth MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary MuiButton-disableElevation MuiButton-fullWidth css-ymie91']",
+
+  "firstnameField": "#firstName",
+  "lastnameField": "#lastName",
+  "emailField": "#signUpEmail",
+  "passwordField": "#password",
+  "signupTACField": "#signupTAC",
+  "signupButton": "[class='MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedEnumBlue MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorEnumBlue MuiButton-disableElevation MuiButton-fullWidth MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedEnumBlue MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorEnumBlue MuiButton-disableElevation MuiButton-fullWidth css-3w3j8f']",
+  "otpField": "input"
+}
